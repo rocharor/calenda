@@ -1,0 +1,30 @@
+i u {
+  color: #f00;
+}
+.hoje{
+  background: aqua;
+  font-weight: bold;
+}
+.hoje:hover{
+  background: #f00;
+  cursor: pointer;
+}
+.hoje:hover .descricao{
+   display: block;
+}
+.aniversoario{
+  background: #ff0;
+  cursor: pointer;
+}
+a{
+ text-decoration: none;
+}
+.descricao{
+    width: 300px;
+    height: auto;
+    border: solid 2px #000;
+    background-color: #e2e2e2;
+    display: none;
+    position: absolute;
+
+}
